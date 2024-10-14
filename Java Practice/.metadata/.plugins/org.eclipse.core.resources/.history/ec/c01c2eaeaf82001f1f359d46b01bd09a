@@ -1,0 +1,29 @@
+package dryRunPractice;
+
+public class SumOfDiv {
+
+	public static void main(String[] args) {
+		
+		int a=12;
+		int i=1;
+		int sum=0;
+		
+		while(i<=a) {
+		
+			if(a%i==0) {
+				sum=sum+i;
+				i++;
+				
+				
+				
+			}
+			
+			
+		}
+		System.out.println(sum);
+		
+		
+
+	}
+
+}

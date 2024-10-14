@@ -1,0 +1,29 @@
+package dryRunPractice;
+
+import java.util.Scanner;
+
+public class SumOfDivision {
+
+	public static void main(String[] args) {
+		
+		Scanner s= new Scanner(System.in);
+		System.out.println("Enter the number: ");
+		int n=s.nextInt();
+		int sum=0;
+		int i=1;
+		
+		while(true) {
+			if(n%i==0) {
+			sum=sum+i;
+			i++;
+			
+			}
+			i++;
+		}
+			
+		
+		
+
+	}
+
+}

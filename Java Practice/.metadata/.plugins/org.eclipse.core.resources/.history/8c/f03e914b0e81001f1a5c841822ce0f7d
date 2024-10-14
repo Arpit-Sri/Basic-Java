@@ -1,0 +1,71 @@
+
+public class StringManipulation {
+	
+		
+	
+	
+	public  String revString(String s) {
+		
+		StringBuilder sb= new StringBuilder(s);
+		System.out.println(sb.reverse());
+		return s;
+	}
+	
+	public  String  revEntire(String s) {
+		
+		
+		return s;
+	}
+	
+	public  String revTargetString(String s) {
+		return s;
+		
+	}
+	
+	public  String replaceString(String s) {
+		return s;
+		
+	}
+	
+	public  String convertToLower(String s) {
+		
+		System.out.println(s.toUpperCase());
+		return s;
+		
+	}
+	
+	public  String convertToUpperr(String s) {
+			
+		System.out.println(s.toUpperCase());
+		  return s;
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	
+		String s="Heisenberg";
+		StringManipulation sm=new StringManipulation();
+		//sm.convertToLower(s);
+		
+		
+		//sm.revString(s);
+		sm.convertToUpperr(s);
+		sm.convertToLower(s);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		}
+		
+	
+
+
+
+}

@@ -1,0 +1,24 @@
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Demo1 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x = 0;
+
+        do {
+            try {
+                System.out.print("Enter the number: ");
+                x += sc.nextInt();
+                System.out.println(x);
+                System.out.println("hello world");
+            } catch (Exception e) {
+                System.out.println("Invalid input! Please enter an integer.");
+                sc.next(); // Consume the invalid input to prevent an infinite loop
+            }
+        } while (false);
+
+        sc.close(); // Close the scanner
+    }
+}

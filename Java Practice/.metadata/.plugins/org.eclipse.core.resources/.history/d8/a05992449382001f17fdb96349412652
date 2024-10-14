@@ -1,0 +1,19 @@
+package dryRunPractice;
+
+import java.util.Scanner;
+
+public class SingleVari {
+
+	public static void main(String[] args) {
+		
+		Scanner sc= new Scanner(System.in);
+		int sum=100;
+		
+		while(true) {
+			System.out.println("hello");
+		}
+		
+
+	}j
+
+}
